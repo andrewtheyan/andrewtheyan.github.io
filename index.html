@@ -24,5 +24,10 @@ function showContent() {
     document.body.appendChild(a);
   }
 }
+if (document.createElement("template").content) {
+  /*Code for browsers that supports the TEMPLATE element*/
+} else {
+  /*Alternative code for browsers that do not support the TEMPLATE element*/
+}
 </script>
 </html>
